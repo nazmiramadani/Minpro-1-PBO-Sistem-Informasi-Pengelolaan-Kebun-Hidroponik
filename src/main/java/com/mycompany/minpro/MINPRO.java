@@ -23,8 +23,12 @@ public class MINPRO {
             System.out.println("6. Tampilkan Perawatan");
             System.out.println("7. Update Perawatan");
             System.out.println("8. Hapus Perawatan");
-            System.out.println("9. Keluar");
-            System.out.print("Pilih menu (1-9): ");
+            System.out.println("9. Tambah Pekerja");
+            System.out.println("10. Tampilkan Pekerja");
+            System.out.println("11. Update Pekerja");
+            System.out.println("12. Hapus Pekerja");
+            System.out.println("13. Keluar");
+            System.out.print("Pilih menu (1-13): ");
             
             try {
                 int pilihan = scanner.nextInt();
@@ -39,7 +43,11 @@ public class MINPRO {
                     case 6 -> manajemen.tampilkanPerawatan();
                     case 7 -> manajemen.updatePerawatan();
                     case 8 -> manajemen.hapusPerawatan();
-                    case 9 -> {
+                    case 9 -> manajemen.tambahPekerja();
+                    case 10 -> manajemen.tampilkanPekerja();
+                    case 11 -> manajemen.updatePekerja();
+                    case 12 -> manajemen.hapusPekerja();
+                    case 13 -> {
                         System.out.println("Terima kasihdan bye");
                         berjalan = false;
                     }
