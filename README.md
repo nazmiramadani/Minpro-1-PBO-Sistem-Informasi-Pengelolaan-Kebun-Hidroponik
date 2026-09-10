@@ -37,7 +37,7 @@
 
 * Penjelasan:
 
-  Atribut disembunyikan dan dibungkus di dalam kelas, sehingga satu-satunya cara untuk melihat atau mengubah isi data tersebut adalah melalui metode yang telah disediakan, yaitu getter (misal: getNamaTanaman()) dan setter (misal: setNamaTanaman()).
+  Menerapkan access modifier private pada seluruh atribut class agar tidak bisa diakses langsung dari luar class. Sebaliknya, constructor dan metode CRUD menggunakan access modifier public agar dapat dipanggil dari luar class (seperti dari MINPRO.java).
 
 2. Encapsulation
 
@@ -47,7 +47,7 @@
   
 * Penjelasan:
 
-  Atribut disembunyikan dan dibungkus di dalam kelas, sehingga satu-satunya cara untuk melihat atau mengubah isi data tersebut adalah melalui metode yang telah disediakan, yaitu getter (misal: getNamaTanaman()) dan setter (misal: setNamaTanaman())
+  Data atribut disembunyikan dan dibungkus di dalam kelas. Satu-satunya cara untuk melihat atau mengubah isi data tersebut secara aman adalah melalui metode yang telah disediakan, yaitu metode *getter* (misal: getNamaTanaman()) dan *setter* (misal: setNamaTanaman()).
 
 3. Validasi Input
 
